@@ -18,7 +18,7 @@ struct ContentView: View {
                 DispatchQueue.main.async {
                     self.player.playSound()
                 }
-                self.buttonPow = "💥"
+                self.buttonPow = "🎈"
 
                     Timer.scheduledTimer(withTimeInterval: 0.5, repeats: false) { timer in
                     self.buttonPow = "🔫"
